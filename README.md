@@ -1,50 +1,27 @@
-# Welcome to your Expo app 👋
+# Comenzar
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+``npm install``
 
-## Get started
+# Correr la app
 
-1. Install dependencies
+La primera respuesta acá: [link](https://stackoverflow.com/questions/52751874/expo-run-on-android-emulator-using-windows-10) (es lo mismo para linux), cambio un poco el android studio pero, más o menos, es:
 
-   ```bash
-   npm install
-   ```
+- abrir el código del proyecto con android studio
+- configurar un dispositivo (Device manager)
+- volver a la carpeta del proyecto y en consola correr ``npm run android``
+- en el Device Manager ya ves tu app
 
-2. Start the app
+# Modificar algo
 
-   ```bash
-    npx expo start
-   ```
+Use expo porque es lo mas sencillo en este momento [link](https://docs.expo.dev/)
 
-In the output, you'll find options to open the app in a
+Despues, tenes que saber react o podes preguntar cosas especificas en alguna IA. Pero creo que no vas a necesitar mucho más.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+En **app/(tabs)/index.tsx** encontras el código que carga la página.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+# Nota
 
-## Get a fresh project
+Versión de Node que use: v22.14.0, podes usar nvm para instalar otra sin romper la actual [link](https://github.com/nvm-sh/nvm)
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
